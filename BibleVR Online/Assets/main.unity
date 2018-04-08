@@ -186,8 +186,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1758022807}
-  - {fileID: 642344184}
   - {fileID: 872194400}
+  - {fileID: 642344184}
   - {fileID: 410274790}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -322,6 +322,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
+      propertyPath: floorFixupMaximumTraceDistance
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -623,7 +627,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 216846479}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 48.473003, y: -154.552, z: -138.162}
 --- !u!108 &872194401
 Light:
@@ -1049,7 +1053,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 73996a8ad321ed94a963ba91c795655c, type: 2}
+  - {fileID: 2100000, guid: 4167230534a52bb4d9073a435cafff7a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1108,7 +1112,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalPosition.z
